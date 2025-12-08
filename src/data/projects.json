@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "title": "Google",
+    "desc": "The project is a copy of the Google homepage, made using Vite and Sass. Adaptive layout, smooth animation and an ordered file structure are implemented. The project aims to develop a clean layout, optimize and work with the collector.",
+    "img": "/assets/portfolio-assets-main/google-site.png",
+    "link": "https://google-site-eight.vercel.app/",
+    "icons": [
+      {
+        "id": 1,
+        "icon": "/assets/icons/icon-vite.svg"
+      },
+      {
+        "id": 2,
+        "icon": "/assets/icons/icon-sass.svg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "The Loop",
+    "desc":"A React project using Redux for state management. The app makes API requests and displays products divided into male and female categories. I also integrated Three.JS for displaying a 3D model of a running shoe, which makes the interface more interactive and modern. The project has become a good practice for working with the API, global state, and 3D graphics on the web.",
+    "img": "/assets/portfolio-assets-main/the-loop.png",
+    "link": "https://the-loop-rho.vercel.app/",
+    "icons": [
+      {
+        "id": 1,
+        "icon": "/assets/icons/icon-react.svg"
+      },
+      {
+        "id": 2,
+        "icon": "/assets/icons/icon-redux.svg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Bank-Hotel",
+    "desc": "Bank-Hotel is a project made in React using regular CSS. Implemented adaptive layout, smooth animations and a neat component structure. The project helps you develop interface design skills, work with animations, and create a user-friendly experience.",
+    "img": "/assets/portfolio-assets-main/bank-hotel.png",
+    "link": "https://bank-hotel-kappa.vercel.app/",
+    "icons": [
+      {
+        "id": 1,
+        "icon": "/assets/icons/icon-react.svg"
+      },
+      {
+        "id": 2,
+        "icon": "/assets/icons/icon-css.svg"
+      }
+    ]
+  }
+]
