@@ -4,13 +4,11 @@ import { Card } from "../components/Card"
 export const ProjectsPage = () => {
 
   return (
-    <div id="projects" className='bg-white min-h-screen w-full grid content-center justify-center'>
-      <div className="container">
-        <div className="flex flex-col gap-12 py-12">
-          {projects.map(proj => (
-            <Card key={proj.id} proj={proj}/>
-          ))}
-        </div>
+    <div id="projects" className='w-full py-12'>
+      <div className="container flex flex-col gap-10">
+        {projects.map(proj => (
+          <Card key={proj.id} proj={proj}/>
+        ))}
       </div>
     </div>
   )
