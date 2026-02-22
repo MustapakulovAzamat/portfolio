@@ -13,8 +13,9 @@ export const Card = ({proj}) => {
         </a>
       </div>
       <div>
-        <Title>{proj.title}</Title>
-
+        <Title>
+          {proj.title}
+        </Title>
         <Text
           className={`max-w-xl my-3 transition-all duration-500 overflow-hidden ${
             show ? "max-h-[300px]" : "max-h-[50px]"
@@ -22,7 +23,6 @@ export const Card = ({proj}) => {
         >
           {proj.desc}
         </Text>
-
 
         <button onClick={() => setShow(!show)}
           className='underline mb-3'
@@ -38,7 +38,6 @@ export const Card = ({proj}) => {
           ))}
         </div>
       </div>
-
     </div>
   )
 }

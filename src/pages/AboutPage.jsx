@@ -7,14 +7,14 @@ export const AboutPage = () => {
   return (
     <div id='about' className='
       min-h-[50vh]
-      flex justify-center items-center
+      flex flex-wrap justify-center items-center
       bg-[rgb(26,31,35)]
       text-white
-      py-14
+      py-12
     '>
-      <div className="container">
+      <div className='container'>
         <div className='flex gap-5 max-w-[50rem]'>
-          <div className='w-8 bg-red-600'></div>
+          <div className='min-w-1 bg-red-600'></div>
           <div>
             <Title className='mb-8'>About Me</Title>
             <Text>
@@ -25,7 +25,7 @@ export const AboutPage = () => {
 
         <div className='flex gap-5 mt-20'>
           <div>
-            <Title className='flex gap-4 mb-8'>
+            <Title className='flex items-center gap-4 mb-5'>
               <FaBook className='text-red-600'/>Styding
             </Title>
             <ul className='list-disc ml-20 flex flex-col gap-2'>

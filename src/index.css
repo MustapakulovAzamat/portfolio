@@ -17,10 +17,3 @@ body {
   padding: 0 25px;
   margin: 0 auto;
 }
-
-@layer components {
-  .main-layout {
-    @apply flex justify-around items-center flex-wrap text-center gap-8
-    sm:text-left
-  }
-}
