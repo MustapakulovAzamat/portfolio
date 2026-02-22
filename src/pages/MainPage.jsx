@@ -7,26 +7,24 @@ import { ALink } from "../components/ALink";
 export const MainPage = () => {
   return (
     <div className='
-      bg-[rgb(26,31,35)] w-full min-h-screen pt-4 pb-10 text-white
+      bg-[rgb(26,31,35)] w-full min-h-screen pt-2 pb-10 text-white
       flex items-center justify-center
     '> 
       <div className="container 
-        flex flex-wrap justify-center md:justify-between items-center gap-10
+        flex flex-wrap justify-center md:justify-between items-center gap-8
         text-center md:text-left
       ">
         <div className="flex flex-col gap-3">
-          <div className="w-[80px] h-[8px] bg-white rounded-3xl mb-6 mx-auto sm:mx-0"></div>
+          <div className="w-[80px] h-[8px] bg-white rounded-3xl mb-5 mx-auto sm:mx-0"></div>
           <Title className="lg:text-5xl md:text-[29px] text-3xl">I'm Azamat,<br/> a Frontend Developer</Title>
           <div className="text-gray-500">
             <Text>HTML · CSS · JS</Text>
             <Text>React · Sass · Tailwind</Text>
             <Text>Next.js</Text>
           </div>
-          <a href="#projects">
-            <Button>
-                <IoArrowDownSharp/>
-            </Button>
-          </a>
+          <Button as="a" href="#projects">
+            <IoArrowDownSharp/>
+          </Button>
         </div>
 
         <div className="flex flex-col gap-3">
